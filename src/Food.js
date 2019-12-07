@@ -5,6 +5,7 @@ class Food extends Component {
 		return (
 			<li onClick={this.props.onClick}>
 				<div>{this.props.data.name}</div>
+				<span>{this.props.data.price}</span>
 			</li>
 		);
 	}

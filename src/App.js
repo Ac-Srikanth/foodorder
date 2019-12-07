@@ -8,21 +8,25 @@ class App extends Component {
 		foodItems: [
 			{
 				name: 'Pizza',
-				price: '$5.99',
+				cost: 5.99,
+				price: `$5.99`,
 				id: 1
 			},
 			{
 				name: 'Burger',
+				cost: 2.99,
 				price: '$2.99',
 				id: 2
 			},
 			{
 				name: 'Chicken Pasta',
+				cost: 4.99,
 				price: '$4.99',
 				id: 3
 			},
 			{
 				name: 'Grilled Sandwich',
+				cost: 1.99,
 				price: '$1.99',
 				id: 4
 			}
